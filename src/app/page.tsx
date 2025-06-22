@@ -1,8 +1,11 @@
 // Next.js page for George Mihai Vasilescu personal website
 
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="min-h-screen px-6 py-12 font-sans bg-white text-black">
+    <main className="relative min-h-screen px-6 py-12 font-sans bg-white text-black">
       <header className="mb-16">
         <h1 className="text-5xl font-bold mb-4">George Mihai Vasilescu</h1>
         <p className="text-xl text-gray-700">
@@ -34,9 +37,23 @@ export default function Home() {
         </p>
       </section>
 
-      <footer className="text-sm text-gray-500">
+      <footer className="text-sm text-gray-500 flex flex-col items-center">
         <p>&copy; 2025 George Mihai Vasilescu. All rights reserved.</p>
+
+        {/* Mystery Image Link - footer center */}
+        <div className="mt-4">
+          <Link href="/knight">
+            <Image
+              src="/neues-level.png"
+              alt="Mystery Link"
+              width={40}
+              height={40}
+              className="cursor-pointer opacity-70 hover:opacity-100 transition duration-300 drop-shadow-md"
+            />
+          </Link>
+        </div>
       </footer>
     </main>
   )
 }
+
