@@ -1,7 +1,6 @@
-// Next.js page for George Mihai Vasilescu personal website
+// pages/index.tsx
 
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -33,27 +32,14 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <p>Email: contact@georgemihaivasilescu.art</p>
         <p className="mt-2">
-          Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
+          Instagram: <a href="https://instagram.com/george_mihai_vasilescu" className="text-blue-600 underline" target="_blank">@george_mihai_vasilescu</a>
         </p>
       </section>
 
       <footer className="text-sm text-gray-500 flex flex-col items-center">
         <p>&copy; 2025 George Mihai Vasilescu. All rights reserved.</p>
-
-        {/* Mystery Image Link - footer center */}
-        <div className="mt-4">
-          <Link href="/knight">
-            <Image
-              src="/neues-level.png"
-              alt="Mystery Link"
-              width={40}
-              height={40}
-              className="cursor-pointer opacity-70 hover:opacity-100 transition duration-300 drop-shadow-md"
-            />
-          </Link>
-        </div>
       </footer>
     </main>
-  )
+  );
 }
 
