@@ -26,7 +26,7 @@ export default function Home() {
 
       <section id="contact" className="mb-20">
         <h2 className="text-2xl text-semibold mb-4">Contact</h2>
-        <p>Email: Georgem.vasilescu@icloud.com</p>
+        <p>Email: georgem.vasilescu@icloud.com</p>
         <p className="mt-2">
           Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
         </p>
