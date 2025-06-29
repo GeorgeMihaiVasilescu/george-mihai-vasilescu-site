@@ -1,5 +1,3 @@
-// pages/index.tsx
-
 import Link from "next/link";
 
 export default function Home() {
@@ -30,9 +28,9 @@ export default function Home() {
 
       <section id="contact" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p>Email: contact@georgemihaivasilescu.art</p>
+        <p>Email: georgem.vasilescu@icloud.com</p>
         <p className="mt-2">
-          Instagram: <a href="https://instagram.com/george_mihai_vasilescu" className="text-blue-600 underline" target="_blank">@george_mihai_vasilescu</a>
+          Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
         </p>
       </section>
 
