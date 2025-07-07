@@ -30,20 +30,14 @@ export default function Home() {
       <section id="partnerships" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Institutional Partnerships</h2>
         <p className="max-w-2xl mb-4">
-          We are currently inviting select long-term institutional and brand partners to support the development of the Museum of Contemporary Tattoos — a next-generation cultural platform at the intersection of tattoo art, AR, and blockchain.
+          We are currently inviting selected long-term institutional and brand partners to support the development of the Museum of Contemporary Tattoos — a next-generation cultural platform at the intersection of tattoo art, AR, and blockchain.
         </p>
         <ul className="list-disc list-inside ml-4 mb-4">
-          <li>Visible placement on digital monuments, app, and website</li>
+          <li>Visible placement on digital monuments, in the app, and on the website</li>
           <li>Integration in institutional reports and archives</li>
-          <li>Access to private previews and networking</li>
+          <li>Access to private previews and networking events</li>
           <li>Custom opportunities for co-branded cultural activations</li>
         </ul>
-        <p className="max-w-2xl mb-4">
-          If you represent a foundation, cultural sponsor, tech company or philanthropic entity aligned with our vision, we invite you to get in touch:
-        </p>
-        <p className="mt-4">
-          <a href="mailto:georgem.vasilescu@icloud.com" className="text-blue-600 underline">georgem.vasilescu@icloud.com</a>
-        </p>
         <p className="mt-2">
           Learn more: <a href="https://museumofcontemporarytattoos.com" className="text-blue-600 underline" target="_blank">museumofcontemporarytattoos.com</a>
         </p>
@@ -51,7 +45,9 @@ export default function Home() {
 
       <section id="contact" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p>Email: georgem.vasilescu@icloud.com</p>
+        <p className="mt-2">
+          Email: <a href="mailto:georgem.vasilescu@icloud.com" className="text-blue-600 underline">georgem.vasilescu@icloud.com</a>
+        </p>
         <p className="mt-2">
           Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
         </p>
@@ -63,3 +59,4 @@ export default function Home() {
     </main>
   );
 }
+
