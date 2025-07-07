@@ -1,20 +1,20 @@
-export default function Home() {
+export default function HomeDE() {
   return (
     <main className="relative min-h-screen px-6 py-12 font-sans bg-white text-black">
       <header className="mb-16">
         <h1 className="text-5xl font-bold mb-4">George Mihai Vasilescu</h1>
         <p className="text-xl text-gray-700">
-          Künstler und Forscher, tätig an der Schnittstelle von Tätowierungen, Erinnerung und Zukunftstechnologie.
+          Künstler und Forscher an der Schnittstelle von Tätowierungen, Erinnerung und Zukunftstechnologien.
         </p>
         <div className="text-sm mt-4">
-          Sprache: <a href="/de" className="underline hover:text-blue-600">Deutsch</a> / <a href="/en" className="underline hover:text-blue-600">English</a>
+          Sprache: <a href="/en" className="underline hover:text-blue-600">English</a> / <a href="/de" className="underline hover:text-blue-600">Deutsch</a>
         </div>
       </header>
 
       <section id="about" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Über</h2>
         <p className="max-w-2xl">
-          George Mihai Vasilescu ist der Gründer des Museum of Contemporary Tattoos – einer internationalen Plattform, auf der sich Tätowierkunst mit Augmented Reality, Blockchain-Technologie und urbaner Intervention verbindet. Seine Arbeit konzentriert sich auf den Aufbau neuer Systeme kultureller Präsenz jenseits traditioneller Formate.
+          George Mihai Vasilescu ist der Gründer des <a href="https://museumofcontemporarytattoos.com" className="underline text-blue-600" target="_blank">Museum of Contemporary Tattoos</a>, einer internationalen Plattform, auf der Tätowierkunst mit Augmented Reality, Blockchain und urbaner Intervention verschmilzt. Seine Arbeit konzentriert sich darauf, neue Systeme für kulturelle Präsenz jenseits traditioneller Formate zu schaffen.
         </p>
       </section>
 
@@ -27,18 +27,33 @@ export default function Home() {
         </ul>
       </section>
 
+      <section id="partnerships" className="mb-20">
+        <h2 className="text-2xl font-semibold mb-4">Institutionelle Partnerschaften</h2>
+        <p className="max-w-2xl mb-4">
+          Wir laden derzeit ausgewählte langfristige institutionelle und Markenpartner ein, die Entwicklung des Museum of Contemporary Tattoos zu unterstützen – einer zukunftsweisenden Kulturplattform an der Schnittstelle von Tätowierkunst, AR und Blockchain.
+        </p>
+        <ul className="list-disc list-inside ml-4 mb-4">
+          <li>Sichtbare Platzierung auf digitalen Monumenten, in der App und auf der Website</li>
+          <li>Integration in institutionelle Berichte und Archive</li>
+          <li>Zugang zu privaten Voransichten und Netzwerkmöglichkeiten</li>
+          <li>Individuelle Möglichkeiten für gemeinsame kulturelle Aktivitäten</li>
+        </ul>
+        <p className="max-w-2xl mb-4">
+          Wenn Sie eine Stiftung, ein Kultursponsor, ein Technologieunternehmen oder eine philanthropische Institution sind, die mit unserer Vision übereinstimmt, freuen wir uns auf Ihre Kontaktaufnahme:
+        </p>
+        <p className="mt-4">
+          <a href="mailto:georgem.vasilescu@icloud.com" className="text-blue-600 underline">georgem.vasilescu@icloud.com</a>
+        </p>
+        <p className="mt-2">
+          Mehr erfahren: <a href="https://museumofcontemporarytattoos.com" className="text-blue-600 underline" target="_blank">museumofcontemporarytattoos.com</a>
+        </p>
+      </section>
+
       <section id="contact" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
         <p>Email: georgem.vasilescu@icloud.com</p>
         <p className="mt-2">
-          Instagram:{" "}
-          <a
-            href="https://instagram.com/nameless_ta2"
-            className="text-blue-600 underline"
-            target="_blank"
-          >
-            @nameless_ta2
-          </a>
+          Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
         </p>
       </section>
 
@@ -48,3 +63,4 @@ export default function Home() {
     </main>
   );
 }
+

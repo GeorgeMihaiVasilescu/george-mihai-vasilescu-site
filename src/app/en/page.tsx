@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <main className="relative min-h-screen px-6 py-12 font-sans bg-white text-black">
@@ -15,7 +14,7 @@ export default function Home() {
       <section id="about" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">About</h2>
         <p className="max-w-2xl">
-          George Mihai Vasilescu is the founder of the Museum of Contemporary Tattoos, an international platform where tattoo art meets augmented reality, blockchain, and urban intervention. His work focuses on building new systems for cultural presence beyond traditional formats.
+          George Mihai Vasilescu is the founder of the <a href="https://museumofcontemporarytattoos.com" className="underline text-blue-600" target="_blank">Museum of Contemporary Tattoos</a>, an international platform where tattoo art meets augmented reality, blockchain, and urban intervention. His work focuses on building new systems for cultural presence beyond traditional formats.
         </p>
       </section>
 
@@ -28,18 +27,33 @@ export default function Home() {
         </ul>
       </section>
 
+      <section id="partnerships" className="mb-20">
+        <h2 className="text-2xl font-semibold mb-4">Institutional Partnerships</h2>
+        <p className="max-w-2xl mb-4">
+          We are currently inviting select long-term institutional and brand partners to support the development of the Museum of Contemporary Tattoos — a next-generation cultural platform at the intersection of tattoo art, AR, and blockchain.
+        </p>
+        <ul className="list-disc list-inside ml-4 mb-4">
+          <li>Visible placement on digital monuments, app, and website</li>
+          <li>Integration in institutional reports and archives</li>
+          <li>Access to private previews and networking</li>
+          <li>Custom opportunities for co-branded cultural activations</li>
+        </ul>
+        <p className="max-w-2xl mb-4">
+          If you represent a foundation, cultural sponsor, tech company or philanthropic entity aligned with our vision, we invite you to get in touch:
+        </p>
+        <p className="mt-4">
+          <a href="mailto:georgem.vasilescu@icloud.com" className="text-blue-600 underline">georgem.vasilescu@icloud.com</a>
+        </p>
+        <p className="mt-2">
+          Learn more: <a href="https://museumofcontemporarytattoos.com" className="text-blue-600 underline" target="_blank">museumofcontemporarytattoos.com</a>
+        </p>
+      </section>
+
       <section id="contact" className="mb-20">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <p>Email: georgem.vasilescu@icloud.com</p>
         <p className="mt-2">
-          Instagram:{" "}
-          <a
-            href="https://instagram.com/nameless_ta2"
-            className="text-blue-600 underline"
-            target="_blank"
-          >
-            @nameless_ta2
-          </a>
+          Instagram: <a href="https://instagram.com/nameless_ta2" className="text-blue-600 underline" target="_blank">@nameless_ta2</a>
         </p>
       </section>
 
@@ -49,4 +63,3 @@ export default function Home() {
     </main>
   );
 }
-
