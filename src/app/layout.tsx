@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,6 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// SEO metadata for Google and social sharing
 export const metadata: Metadata = {
   title: "George Mihai Vasilescu – Official Website",
   description:
@@ -47,14 +49,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta name="google-site-verification" content="o4f8f37mLQVqv3c1AH7azsbxP-R6TKlCKEqtVszqAwQ" />
-      </head>
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
   );
 }
+
 
 
